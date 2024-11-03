@@ -1,0 +1,41 @@
+.image{
+  width: 100vw;
+  height: 90vh;
+}
+
+
+#featuredCarousel .carousel-caption h5 {
+    color: #00e1ff;
+    font-weight: 900;
+    /* Change to your desired color */
+    font-family: 'Arial', sans-serif;
+    /* Change to your desired font */
+    font-size: 2em;
+    /* Adjust font size */
+}
+
+#featuredCarousel .carousel-caption p {
+    color: #000000;
+    font-weight: 700;
+    /* Change to your desired color */
+    font-family: 'Verdana', sans-serif;
+    /* Change to your desired font */
+    font-size: 1.5em;
+    /* Adjust font size */
+}
+
+/* Style for the carousel indicators */
+#featuredCarousel .carousel-indicators li {
+    background-color: #0033ff;
+    /* Change to your desired color */
+}
+
+#featuredCarousel .carousel-indicators .active {
+    background-color: #ff7f50;
+    /* Change to a different color for the active indicator */
+}
+
+.port{
+    width: 100%;
+    min-height: 300px;
+}
