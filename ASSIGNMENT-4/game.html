@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Welcome, <span id="username-display"></span>!</h1>
+        <div id="score-display">Score: <span id="score">0</span></div>
+        <div id="game-area"></div>
+        <button type="button" id="start-game-btn">Start Game</button>
+        <button type="button" onclick="switchtab()">Manage Game</button>
+        <button type="button" id="stop-game-btn" >End Game</button>
+    </div>
+
+    <script>
+        function switchtab(){
+            window.location.href="manage.html"
+        }
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
